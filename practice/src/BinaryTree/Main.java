@@ -1,0 +1,18 @@
+package BinaryTree;
+
+public class Main {
+    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//        binarytree tree = new binarytree();
+//        tree.populate(scanner);
+//      //  tree.display();
+//        tree.prettydisplay();
+        BST tree = new BST();
+        int[] nums = {5,2,7,1,4,6,9,8,3,10};
+        tree.populate(nums);
+        tree.display();
+        tree.preOrder();
+        tree.inOrder();
+        tree.postOrder();
+    }
+}
